@@ -53,3 +53,22 @@
 .row{
     gap: 1.6rem;
 }
+
+@media (max-width: 1024px) {
+    .c-container{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactModes{
+        width: 100%;
+    }
+    .c-right{
+        justify-content: center;
+    }
+    .mode{
+        width: 100%;
+    }
+}
